@@ -11,8 +11,8 @@ missing = []
 
 # Start looping through time (every 3h)
 #2920 for range of 1 year 29200 for 10 years
-start_date = datetime(1993, 1, 6, 0, 0, 0)
-for td in (start_date + timedelta(hours=3*it) for it in range(2)):  # change the range here to the number of files you want to download. One year would be 365*8 since they are 3h files, so 8 each day
+start_date = datetime(1993, 1, 1, 0, 0, 0)
+for td in (start_date + timedelta(hours=3*it) for it in range(10)):  # change the range here to the number of files you want to download. One year would be 365*8 since they are 3h files, so 8 each day
 	# subset but check to see if it isn't missing data
 	try:
 		test = myDat[['water_u', 'water_v']].sel(time=td.strftime("%Y-%m-%dT%H:%M:%S"), LEV=[2,6,20,60,250], latitude=slice(0,45))
