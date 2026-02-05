@@ -1,0 +1,6 @@
+particle_id,release_site,lon_closest,lat_closest,age_closest,min_distance_km,settled,ne_island_name,geonames_island_name
+0,Big Island,-155.78877,18.87821,50.041668,11.11060955802326,False,United States of America,Mokuhonu
+1,Big Island,-155.86955,19.394505,51.041668,3.513925620651051,True,United States of America,Lepeamoa Rock
+2,Big Island,-155.7108,18.958105,58.0,0.5563526502444069,True,United States of America,Mokuhonu
+3,Big Island,-155.85867,19.451605,53.041668,6.71096042360658,True,United States of America,Kīpū Rock
+4,Big Island,-157.48918,18.053854,50.041668,201.59734798714751,False,United States of America,Mokunaia
